@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background: rgb(32, 35, 77);
+    display: flex;
+    justify-content: space-between;
+
+}
+.header .logo img{
+    width: 100px;
+    height: 100px;
+
+}
+.header .logo{
+    display: flex;
+}
+.header .logo ul{
+    color: aliceblue;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .logo ul li{
+    line-height: none;
+
+
+}

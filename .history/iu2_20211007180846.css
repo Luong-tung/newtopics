@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background:#1E3163;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header .logo img{
+    width: 100px;
+    height: 100px;
+
+}
+.header .logo{
+    display: flex;
+}
+.header .logo ul{
+    color: aliceblue;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .logo ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: 0px 5px;
+    padding:5px;
+
+}
+.header .logo ul li i{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.header .logo ul li:hover{
+    background:#fff;
+    color:#2D46B9;
+
+
+}
+
