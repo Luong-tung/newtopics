@@ -31,7 +31,7 @@
     list-style: none;
     cursor: pointer;
     margin: 0px 5px;
-    padding:0px 12px;
+    padding:5px;
     font-weight: 800;
     font-size: larger;
 
@@ -55,15 +55,15 @@
  .header .logo ul li a:after{
     content: "";
     position: absolute;
-    background: #fff;
-    height: 2px;
+    background: #c4cdf5;
+    height: 3px;
     width: 0;
     left:0;
-    bottom: -8px;
+    bottom: -10px;
     transition: 0.3s;
 }
 .header .logo ul li a:hover{
-    color: #fff;
+    color: #edeff5;
 }
 
 .header .logo ul li a:hover:after{
